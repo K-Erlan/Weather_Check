@@ -1,3 +1,13 @@
 # WEATHER-CHECK APP
+
+
 #### This app can help you to know about the temperature of the any cities.
+
+
 ## It shows not only Temperature,also others important things.
+
+
+# Secondly!
+
+
+### It doesn't matter if you will write in russian or english language ;)
