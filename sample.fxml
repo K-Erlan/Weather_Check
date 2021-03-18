@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="270.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="58.0" prefWidth="270.0" style="-fx-background-color: BLACK;">
+         <children>
+            <Text fill="WHITE" layoutX="18.0" layoutY="38.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="WEATHER-CHECK" wrappingWidth="236.283203125">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="city" alignment="CENTER" focusTraversable="false" layoutX="48.0" layoutY="74.0" promptText="Write the city" style="-fx-background-color: fafafa; -fx-border-color: fafafa; -fx-border-radius: 8;">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="getData" layoutX="95.0" layoutY="113.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="81.0" text="Search">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+      <Text fx:id="temp_info" fill="#d021c7" layoutX="14.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORMATION " wrappingWidth="261.970703125">
+         <font>
+            <Font name="Arial Black" size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_temp" fill="WHITE" layoutX="14.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEMPERATURE: ">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_feel" fill="WHITE" layoutX="14.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FEELS:">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_max" fill="WHITE" layoutX="14.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAXIMUM:">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_min" fill="WHITE" layoutX="14.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MINIMUM:">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_pres" fill="WHITE" layoutX="14.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRESSURE:">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="33.0" fitWidth="23.0" layoutX="232.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/w112h2641393885391138.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
